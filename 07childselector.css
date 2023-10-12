@@ -1,0 +1,17 @@
+/* section h1{
+    color: darkgreen;
+} */
+
+
+/* direct child selector.............. */
+/* section > h1{
+    color: darkgreen;
+} */
+
+/* section > p{
+    color: brown;
+}
+
+section > h1{
+    color: blueviolet;
+} */

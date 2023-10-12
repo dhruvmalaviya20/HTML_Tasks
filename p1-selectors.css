@@ -1,0 +1,77 @@
+/* Element selecotr................................ */
+/* h1{
+    color: brown;
+} */
+
+
+/* Class selector.................................. */
+/* .first{
+    color: blue;
+}
+.first-1{
+    color: aqua;
+}
+.first-2{
+    color: blueviolet;
+}
+.second{
+    background-color: gray;
+} */
+
+
+/* Id selector..................................... */
+/* Note: We can't provide two id in one element using in selector*/
+/* #first{
+    color: coral;
+}
+#first-1{
+    color: cadetblue;
+}
+#first-2{
+    color: blue;
+} */
+
+
+/* Universal selector.............................. */
+/* *{
+    color: darkgoldenrod;
+} */
+
+
+/* Grouping selector............................... */
+/* #first-1,.second,h2,h3{
+    color: crimson;
+} */
+
+
+/* Descendant selector............................. */
+/* section div h2{
+    color: rgb(94, 178, 34);
+}
+ul li{
+    color: blue;
+} */
+
+
+/* Child selector.................................. */
+/* section > h1{
+    color: chartreuse;
+}
+section > p{
+    color: gold;
+}
+section > div{
+    color: indianred;
+} */
+
+
+/* Adjacent sibling selector...................... */
+/* section + h1{
+    color: maroon;
+} */
+
+
+/* general sibling selector....................... */
+section ~ h1{
+    color: rgb(58, 0, 139);
+}

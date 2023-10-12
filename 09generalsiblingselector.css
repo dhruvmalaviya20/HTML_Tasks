@@ -1,0 +1,14 @@
+/* adjacent siblingselector */
+/* div + h1{
+    color: brown;
+} */
+
+
+/* general sibling selector */
+/* div ~ h1{
+    color: red;
+} */
+
+section ~ h1{
+color: blueviolet;
+}

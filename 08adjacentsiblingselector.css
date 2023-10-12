@@ -1,0 +1,8 @@
+/* its not possible because h1 is not direct comes out of section tag................... */
+/* section + h1{
+    color: darkolivegreen;
+} */
+
+section + div{
+    color: forestgreen;
+}
