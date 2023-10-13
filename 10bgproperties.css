@@ -1,0 +1,60 @@
+.background-color{
+    background-color: rgb(186, 126, 242);
+}
+div{
+    height: 400px;
+    border: 3px solid gold;
+}
+
+
+.background-img{
+    background-image: url(https://picsum.photos/seed/picsum/500/300);
+    /* background-image: url(../img/mahindra\ logo.png); */
+}
+
+
+.background-repeat{
+    background-image: url(https://picsum.photos/seed/picsum/500/300);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+
+.background-attachment{
+    background-image: url(https://picsum.photos/seed/picsum/500/300);
+    background-attachment: fixed;
+}
+
+
+.background-possition{
+    background-image: url(https://picsum.photos/seed/picsum/500/300);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: right;
+    background-position: left;
+    background-position: 200px;
+    background-position: -200px;
+}
+
+
+.background-size{
+    background-image: url(https://picsum.photos/seed/picsum/1100/400);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+}
+
+
+.background{
+    /* background-image: url(https://picsum.photos/seed/picsum/1100/400); */
+    /* background: color(srgb red green blue); */
+    background: url(https://picsum.photos/seed/picsum/500/300) no-repeat center;
+}
+
+
+.background-flag{
+    background: linear-gradient(164deg, rgb(255, 98, 0), white, rgba(0, 128, 0, 0.825));
+    /* background: url(https://picsum.photos/seed/picsum/500/300) no-repeat center; */
+    /* background-attachment: fixed; */
+}

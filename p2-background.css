@@ -1,0 +1,16 @@
+div{
+    border: 2px solid;
+    height: 400px;
+}
+.background-img{
+    background: url(https://picsum.photos/400/400?grayscale) no-repeat center, linear-gradient(orange, white, green);
+    height: 400px;
+    width: 100%;
+}
+
+.image2{
+    background: url(https://picsum.photos/seed/picsum/600/400) no-repeat center, linear-gradient(rgba(0, 157, 255, 0.89), rgba(247, 99, 156, 0.934), rgba(130, 244, 69, 0.923)) ;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
