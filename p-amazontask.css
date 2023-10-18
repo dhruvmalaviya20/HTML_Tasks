@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: rgb(174, 255, 255);
+    height: 500px;
+}
+
+section .part-1 {
+    margin-top: 50px;
+    background-color: white;
+    /* display: inline; */
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    width: 97%;
+    margin-left: 20px;
+}
+
+.part-1 {
+    margin: 0 10px;
+    width: 50%;
+}
+
+.part-1 img {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.part-1 h2 {
+    margin-left: 18px;
+}
+
+.img img {
+    /* display: ; */
+    width: 44%;
+    padding: 10px 10px;
+    /* position: right; */
+    /* padding: 2px; */
+
+}
+
+.row1{
+    /* margin: 0; */
+    /* padding: 0; */
+    display: flex;
+}

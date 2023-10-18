@@ -1,0 +1,63 @@
+  div{
+    height: 300px;
+    margin: 10px;
+}
+
+.box{
+    background-color: rgb(253, 167, 210);
+    /* border: 20px solid blueviolet; */
+    border-top: 20px solid blue;
+    border-bottom: 20px inset yellow;
+    border-left: 20px dotted red;
+    border-right: 20px dashed gray;
+    border-radius: 50%;
+    width: 350px;
+}
+
+input{
+    /* outline: 10px solid green; */
+    /* outline: none; */
+    border: none;
+    background-color: brown;
+}
+
+img{
+    border-radius: 50%;
+    outline: 10px outset rgb(215, 142, 211);
+    
+}
+
+
+.solid{
+    border: 3px solid blueviolet;
+}
+
+
+.box-dashed{
+    border: 3px dashed blue;
+}
+
+
+.box-dotted{
+    border: 3px dotted purple;
+}
+
+
+.box-inset{
+    border: 10px inset rebeccapurple;
+}
+
+
+.box-outset{
+    border: 10px outset red;
+}
+
+
+.box-groove{
+    border: 10px groove palevioletred;
+}
+
+
+.box-ridge{
+    border: 10px ridge yellow;
+} 
