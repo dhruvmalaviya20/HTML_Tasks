@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 1800px;
+    border: solid 1px;
+    background-color: rgb(154, 187, 248);
+    display: flex;
+}
+
+.navbar{
+    position: fixed;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    /* background-color: blanchedalmond; */
+    border: solid 1px;
+}
+
+/* position reletive khud ki jagah se margin lega............... */
+/* #item3{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: greenyellow;
+} */
+
+/* position absolute parant class ki jagah se margin lega.................. */
+#item3{
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    top: 200px;
+    /* right: 100px; */
+    /* bottom: 100px; */
+    /* top: 100px;
+    left: 100px; */
+    /* background-color: greenyellow; */
+}
+
+#item4{
+    /* position: relative; */
+    background-color: gray;
+}
+.mini-box{
+    /* position: absolute; */
+    /* right: 0px; */
+    /* bottom: 0; */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* background-color: blueviolet; */
+}
+
+
